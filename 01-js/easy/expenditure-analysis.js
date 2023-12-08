@@ -14,6 +14,10 @@
 */
 
 function calculateTotalSpentByCategory(transactions) {
+  let arr=[];
+  for(let i = 0; i<transactions.length; i++){
+    let obj = transactions[i]["category"]["price"]
+  }
   return [];
 }
 
